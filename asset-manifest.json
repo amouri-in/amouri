@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/amouri/static/css/main.8aa430a2.chunk.css",
+    "main.js": "/amouri/static/js/main.82be8058.chunk.js",
+    "main.js.map": "/amouri/static/js/main.82be8058.chunk.js.map",
+    "runtime-main.js": "/amouri/static/js/runtime-main.5be38823.js",
+    "runtime-main.js.map": "/amouri/static/js/runtime-main.5be38823.js.map",
+    "static/js/2.b440d846.chunk.js": "/amouri/static/js/2.b440d846.chunk.js",
+    "static/js/2.b440d846.chunk.js.map": "/amouri/static/js/2.b440d846.chunk.js.map",
+    "static/js/3.0a7c85ff.chunk.js": "/amouri/static/js/3.0a7c85ff.chunk.js",
+    "static/js/3.0a7c85ff.chunk.js.map": "/amouri/static/js/3.0a7c85ff.chunk.js.map",
+    "index.html": "/amouri/index.html",
+    "static/css/main.8aa430a2.chunk.css.map": "/amouri/static/css/main.8aa430a2.chunk.css.map",
+    "static/js/2.b440d846.chunk.js.LICENSE.txt": "/amouri/static/js/2.b440d846.chunk.js.LICENSE.txt",
+    "static/media/Rectangle_1.30c3b5ed.png": "/amouri/static/media/Rectangle_1.30c3b5ed.png",
+    "static/media/Rectangle_2.71c48fa9.png": "/amouri/static/media/Rectangle_2.71c48fa9.png",
+    "static/media/Rectangle_3.2ca0ade5.png": "/amouri/static/media/Rectangle_3.2ca0ade5.png",
+    "static/media/Rectangle_4.b82e392f.png": "/amouri/static/media/Rectangle_4.b82e392f.png",
+    "static/media/Rectangle_5.cd9f214f.png": "/amouri/static/media/Rectangle_5.cd9f214f.png",
+    "static/media/index.css": "/amouri/static/media/wall.b83da908.jpg",
+    "static/media/close_icon.c04519a7.svg": "/amouri/static/media/close_icon.c04519a7.svg",
+    "static/media/logo.0ca65426.jpeg": "/amouri/static/media/logo.0ca65426.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5be38823.js",
+    "static/js/2.b440d846.chunk.js",
+    "static/css/main.8aa430a2.chunk.css",
+    "static/js/main.82be8058.chunk.js"
+  ]
+}
