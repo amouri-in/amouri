@@ -1,5 +1,5 @@
 import React, {useState, useEffect, useRef} from "react";
-
+import ReactPlayer from 'react-player';
 import close_icon from '../assets/close_icon.svg';
 
 function useOutsideAlerter(ref, setOpenNav) {
@@ -20,7 +20,7 @@ function useOutsideAlerter(ref, setOpenNav) {
   }, [ref]);
 }
 
-const Navbar = ({logo}) => {
+const Navbar = ({Video}) => {
 
   const [openNav, setOpenNav] = useState(false);
 
@@ -30,7 +30,16 @@ const Navbar = ({logo}) => {
   return (
     <div className="flex flex-row items-center justify-between h-28">
       <a href="/" className="pl-7 logo lg:ml-10">
-        <img height="40%" width="40%" src={logo} alt="logo" />
+      {/* <ReactPlayer
+          url={Video}
+          width='55%'
+            height='110%'
+            controls = {false}
+            playing={true}
+            loop={false}
+        /> */}
+      <video height="100%" width="55%" src={Video} autoPlay={true} muted/>
+        {/* <img height="40%" width="40%" src={logo} alt="logo" /> */}
       </a>
 
           {/* Mobile Nav */}

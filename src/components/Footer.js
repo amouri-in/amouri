@@ -1,10 +1,12 @@
 import React from "react";
 
-const Footer = ({logo}) => {
+const Footer = ({Video}) => {
   return (
     <div id="contact" className="flex flex-row flex-wrap items-center justify-around p-4">
       <a href="/" className="w-1/2 pl-5 mb-2 lg:visible lg:w-auto lg:pl-0 lg:mb-0">
-        <img width="15%" height="10%" src={logo} alt="logo"/>
+      <video height="50px" width="380px" src={Video} autoPlay={true} muted/>
+      
+        {/* <img width="15%" height="10%" src={logo} alt="logo"/> */}
       </a>
       <div className="flex items-center justify-around w-2/3 pt-5 lg:pt-0 lg:w-1/3 ">
         <a href="#">
@@ -19,7 +21,7 @@ const Footer = ({logo}) => {
         </a>
       </div>
       <div className="mt-10 text-lg text-blue-800 lg:mt-0">
-          Copyright 2021 Amour
+          Copyright 2021 Amouri
       </div>
     </div>
   );

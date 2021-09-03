@@ -7,6 +7,7 @@ import BottomLead from './components/BottomLead';
 import Footer from './components/Footer';
 
 import logo from "./assets/logo.jpeg";
+import video from "./assets/video.mp4";
 import Rectangle_3 from './assets/Rectangle_3.png';
 import Rectangle_4 from './assets/Rectangle_4.png';
 import Rectangle_5 from './assets/Rectangle_5.png';
@@ -56,7 +57,7 @@ function App() {
     <div className="box-border">
       <div className="flex flex-col">
         
-        <Navbar logo={logo}/>
+        <Navbar Video={video}/>
         <Hero 
           appType={data.hero.appType}
           tagLine={data.hero.tagLine}
@@ -99,7 +100,7 @@ function App() {
             extraActionText={data.bottomLead.extraActionText}
           /> */}
           <Countdown/>
-          <Footer logo={logo}/>
+          <Footer Video={video}/>
       </div>
     </div>
   );
